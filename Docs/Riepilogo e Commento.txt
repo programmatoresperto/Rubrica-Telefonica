@@ -1,0 +1,51 @@
+﻿
+Riepilogo e Commento delle Variazioni Apportate:
+
+
+Descrizione della Consegna Originale:
+
+
+Il compito originale richiedeva di progettare un software che permetta a un utente di gestire la propria rubrica telefonica, includendo la possibilità di visualizzare contatti nascosti tramite una password. Inoltre, il software doveva prevedere un metodo per tornare alla situazione iniziale. I requisiti aggiuntivi comprendevano la gestione di singoli contatti nascosti che potevano essere resi visibili e viceversa, e la gestione della lista delle ultime chiamate.
+
+
+Variazioni e Modifiche Apportate:
+
+
+1. Gestione Contatti Nascosti:
+   - Implementazione di una Password: È stato aggiunto un sistema di password per l'accesso ai contatti nascosti. Il metodo `Riservato()` gestisce questa funzionalità.
+   - Visualizzazione e Modifica della Visibilità dei Contatti: È stato introdotto un campo `visibile` nei contatti per indicare se un contatto è nascosto o visibile. Metodi sono stati aggiunti per modificare questo stato.
+
+
+2. Gestione delle Ultime Chiamate:
+   - Lista delle Ultime Chiamate: È stata implementata una struttura per memorizzare le ultime chiamate. Ogni chiamata effettuata viene registrata in una lista che viene aggiornata dinamicamente.
+   - Coerenza con i Contatti Nascosti: La lista delle ultime chiamate tiene conto dello stato di visibilità dei contatti, assicurando che i contatti nascosti non compaiano nella lista a meno che non vengano resi visibili.
+
+
+3. Ottimizzazione e Aggiunta di Funzionalità:
+   - Inserimento e Modifica Contatti: Sono stati migliorati i metodi per l'inserimento e la modifica dei contatti, permettendo un controllo più preciso sui dati inseriti.
+   - Ordinamento e Visualizzazione: Sono stati aggiunti metodi di ordinamento (selection sort, insertion sort, bubble sort) per visualizzare i contatti in modo ordinato.
+
+
+4. Salvataggio e Caricamento da File:
+   - Salvataggio su File: Implementato un metodo per salvare la rubrica su un file CSV.
+   - Caricamento da File: Implementato un metodo per caricare i contatti da un file CSV.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Commento:
+
+
+Le modifiche apportate rispetto alla consegna iniziale sono state effettuate per migliorare la robustezza e la funzionalità del software. La gestione dei contatti nascosti è stata implementata con attenzione alla sicurezza e alla semplicità d'uso. La possibilità di resettare lo stato iniziale e la coerenza della lista delle ultime chiamate sono stati aggiunti per rispondere ai requisiti specifici del compito. Questi miglioramenti assicurano che il software sia più completo e facile da utilizzare, offrendo allo stesso tempo una gestione sicura e intuitiva dei contatti.
